@@ -15,7 +15,8 @@ Para manejar estados de react en astro, utilizo el nanostores
 
 
 Comandos utilizados:
-Crear proyecto Atro
+
+Crear proyecto Astro
 ```sh
 npm create astro@latest 
 ```
