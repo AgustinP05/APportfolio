@@ -9,5 +9,5 @@ export default defineConfig({
   integrations: [react(),tailwind()],
   site: 'https://apportfolio.github.io',
   base: '/APportfolio', 
-
+  tsconfig: './tsconfig.json'
 })
