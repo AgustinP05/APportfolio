@@ -1,3 +1,9 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "exclude": [
+    "src/components/Header.astro",
+    "src/components/PillList.astro",
+    "src/components/Timeline.astro",
+    "src/components/ProjectComponents/TechList.astro"
+  ]
 }
