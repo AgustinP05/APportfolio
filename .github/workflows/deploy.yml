@@ -24,10 +24,7 @@ jobs:
         #  node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
         #  package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
 
-      # Agrega un paso para capturar y ignorar los errores de construcción
-      - name: Ignore build errors
-        run: exit 0  # Salir con código de éxito, ignorando cualquier error de construcción
-
+  
   deploy:
     needs: build
     runs-on: ubuntu-latest
