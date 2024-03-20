@@ -7,7 +7,7 @@ import react from '@astrojs/react'
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(),tailwind()],
-  site: 'https://apportfolio.github.io',
+  site: 'https://agustinp05.github.io',
   base: '/APportfolio', 
   tsconfig: './tsconfig.json'
 })
